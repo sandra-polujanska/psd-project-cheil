@@ -16,16 +16,17 @@ body {
     font-family: 
 }
 
+img {
+    width: 1440px;
+}
 .slideshow-container {
 
     background-position: center;
     background-size: cover; 
-
     text-align: center;
     position: relative;
-    margin: auto;
-    max-width: 1920px;
-    width: 100%
+    width: 100%;
+    height: auto;
 }
 
 .slide {
@@ -53,10 +54,13 @@ body {
 
 .dots {
     position: absolute;
+/*
     display: block;
-    top: 800px;
-    left: 500px;
+    width: 10%;
     
+    margin: 0 45%;
+    padding-bottom: 10%;
+*/
 }
 
 .dot {
